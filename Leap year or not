@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Leapyearornot
+{
+Public static void main(String[] args)
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("enter the year");
+int Year =sc.nextInt();
+System.out.println("enter the last two number of the year");
+int i=sc.nextInt();
+if(i%4==0)
+{
+System.out.println(Year + " is leap year");
+}
+else
+{
+System.out.println(Year + "  is not a leap year")
+}
+}
+}
+
+Output:
+enter the year
+2020
+enter the last two numvers of the year
+20
+2020 is a leap year
+
+enter the year
+2023
+enter the last two numvers of the year
+23
+2023 is a not a leap year
